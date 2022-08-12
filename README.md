@@ -13,7 +13,7 @@ ___
 * ##### [01 - Introduction](https://github.com/Loner789/30-days-of-js/tree/main/01-introduction/)
 * ##### [02 - Data types](https://github.com/Loner789/30-days-of-js/tree/main/02-data-types/)
 * ##### [03 - Booleans operators date](https://github.com/Loner789/30-days-of-js/tree/main/03-booleans-operators-date/)
-* ##### [04 - Conditionals]()
+* ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-day-conditionals/)
 * ##### [05 - Arrays]()
 * ##### [06 - Loops]()
 * ##### [07 - Functions]()
