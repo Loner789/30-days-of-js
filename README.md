@@ -10,9 +10,9 @@ ___
 [![My Skills](https://skills.thijs.gg/icons?i=html,js,git)](https://skills.thijs.gg)
  
 ### Content Overview:
-* ##### [01 - Introduction](https://loner789.github.io/30-days-of-js/tree/main/01-introduction/)
-* ##### [02 - Data types](https://loner789.github.io/30-days-of-js/tree/main/02-data-types/)
-* ##### [03 - Booleans operators date](https://loner789.github.io/30-days-of-js/tree/main/03-booleans-operators-date/)
+* ##### [01 - Introduction](https://github.com/Loner789/30-days-of-js/tree/main/01-introduction/)
+* ##### [02 - Data types](https://github.com/Loner789/30-days-of-js/tree/main/02-data-types/)
+* ##### [03 - Booleans operators date](https://github.com/Loner789/30-days-of-js/tree/main/03-booleans-operators-date/)
 * ##### [04 - Conditionals]()
 * ##### [05 - Arrays]()
 * ##### [06 - Loops]()
