@@ -12,7 +12,7 @@ ___
 ### Content Overview:
 * ##### [01 - Introduction](https://loner789.github.io/30-days-of-js/01-introduction/)
 * ##### [02 - Data types](https://loner789.github.io/30-days-of-js/02-data-types/)
-* ##### [03 - Booleans operators date]()
+* ##### [03 - Booleans operators date](https://loner789.github.io/30-days-of-js/03-booleans-operators-date/)
 * ##### [04 - Conditionals]()
 * ##### [05 - Arrays]()
 * ##### [06 - Loops]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 28 days (projects) left until the end of the challenge.
+There are 27 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
