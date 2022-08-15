@@ -14,7 +14,7 @@ ___
 * ##### [02 - Data types](https://github.com/Loner789/30-days-of-js/tree/main/02-data-types/)
 * ##### [03 - Booleans operators date](https://github.com/Loner789/30-days-of-js/tree/main/03-booleans-operators-date/)
 * ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-day-conditionals/)
-* ##### [05 - Arrays]()
+* ##### [05 - Arrays](https://github.com/Loner789/30-days-of-js/tree/main/05-day-arrays/)
 * ##### [06 - Loops]()
 * ##### [07 - Functions]()
 * ##### [08 - Objects]()
