@@ -147,16 +147,19 @@ console.log(Math.abs(Math.max(...ages) - avarageAge)); // 3.19
 // 2.Slice the first ten countries from the countries array
 console.log(countries.slice(0, 10));
 // 3. Find the middle country(ies) in the countries array
-console.log(countries[Math.floor(countries.length / 2)], countries[Math.ceil(countries.length / 2)]);
+console.log(
+  countries[Math.floor(countries.length / 2)],
+  countries[Math.ceil(countries.length / 2)]
+);
 // 4. Divide the countries array into two equal arrays if it is even. If countries array is not even, one more country for the first half
 let arr2 = [];
 let arr3 = [];
 if (countries.length % 2 === 0) {
-    arr2 = countries.slice(0, countries.length / 2);
-    arr3 = countries.slice((countries.length / 2) + 1, countries.length + 1);
+  arr2 = countries.slice(0, countries.length / 2);
+  arr3 = countries.slice(countries.length / 2 + 1, countries.length + 1);
 } else {
-    arr2 = countries.slice(0, Math.ceil(countries.length / 2));
-    arr3 = countries.slice(Math.ceil(countries.length / 2), countries.length + 1);
+  arr2 = countries.slice(0, Math.ceil(countries.length / 2));
+  arr3 = countries.slice(Math.ceil(countries.length / 2), countries.length + 1);
 }
 
 console.log(countries.length);
