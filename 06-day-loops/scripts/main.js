@@ -108,17 +108,15 @@ for (let i = 0; i <= 100; i++) {
 }
 
 // 9. Use for loop to iterate from 0 to 100 and print only prime numbers
-// let filter = [], primes = [1];
-// for (i = 2; i <= 100; ++i) {
-//     if (!filter[i]) {
-//         // i has not been marked -- it is prime
-//         primes.push(i);
-//         for (j = i << 1; j <= 100; j += i) {
-//             filter[j] = true;
-//         }
-//     }
-// }
-// console.log(primes);
+for (let i = 1; i <= 100; i++) {
+  for (let j = 2; j <= i; j++) {
+    if (i % j === 0 && j < i) {
+      break;
+    } else if (j === i) {
+      console.log(i);
+    }
+  }
+}
 
 // 10. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 //     The sum of all numbers from 0 to 100 is 5050.
@@ -366,11 +364,65 @@ for (let i = 0; i < fullStack.length; i++) {
 
 // Exercises: Level 3
 // 1. Copy countries array(Avoid mutation)
+const countries2 = countries;
+console.log(countries2);
+
 // 2. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
+const sortedCountries = countries.sort((a, b) => a.length - b.length);
+console.log(sortedCountries);
+
 // 3. Sort the webTechs array and mernStack array
+const sortedWebTechs = webTechs.sort((a, b) => a.length - b.length);
+console.log(sortedWebTechs);
+
+const sortedMernStack = mernStack.sort((a, b) => a.length - b.length);
+console.log(sortedMernStack);
+
 // 4. Extract all the countries contain the word 'land' from the countries array and print it as array
+const lands = [];
+
+countries.forEach((item) => {
+  if (item.includes("land")) {
+    lands.push(item);
+  }
+});
+
+console.log(lands);
+
 // 5. Find the country containing the hightest number of characters in the countries array
+console.log(Math.max(...countriesLength));
+
 // 6. Extract all the countries contain the word 'land' from the countries array and print it as array
+console.log(lands);
+
 // 7. Extract all the countries containing only four characters from the countries array and print it as array
+const fourCharCountries = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].length === 4) {
+    fourCharCountries.push(countries[i]);
+  }
+}
+
+console.log(fourCharCountries);
+
 // 8. Extract all the countries containing two or more words from the countries array and print it as array
+const fewWordsCountries = [];
+
+for (let i = 0; i < countries.length; i++) {
+  if (countries[i].includes(" ")) {
+    fewWordsCountries.push(countries[i]);
+  }
+}
+
+console.log(fewWordsCountries);
+
 // 9. Reverse the countries array and capitalize each country and stored it as an array
+const reversedCountries = countries.reverse();
+let reversedCapitalizedCountries = [];
+
+for (let i = 0; i < reversedCountries.length; i++) {
+  reversedCapitalizedCountries.push(reversedCountries[i].toLocaleUpperCase());
+}
+
+console.log(reversedCapitalizedCountries);

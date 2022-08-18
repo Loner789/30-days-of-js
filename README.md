@@ -15,7 +15,7 @@ ___
 * ##### [03 - Booleans operators date](https://github.com/Loner789/30-days-of-js/tree/main/03-booleans-operators-date/)
 * ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-day-conditionals/)
 * ##### [05 - Arrays](https://github.com/Loner789/30-days-of-js/tree/main/05-day-arrays/)
-* ##### [06 - Loops]()
+* ##### [06 - Loops](https://github.com/Loner789/30-days-of-js/tree/main/06-day-loops/)
 * ##### [07 - Functions]()
 * ##### [08 - Objects]()
 * ##### [09 - Higher order functions]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 26 days (projects) left until the end of the challenge.
+There are 24 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
