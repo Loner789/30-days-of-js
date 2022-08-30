@@ -13,10 +13,10 @@ ___
 * ##### [01 - Introduction](https://github.com/Loner789/30-days-of-js/tree/main/01-introduction/)
 * ##### [02 - Data types](https://github.com/Loner789/30-days-of-js/tree/main/02-data-types/)
 * ##### [03 - Booleans operators date](https://github.com/Loner789/30-days-of-js/tree/main/03-booleans-operators-date/)
-* ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-day-conditionals/)
-* ##### [05 - Arrays](https://github.com/Loner789/30-days-of-js/tree/main/05-day-arrays/)
-* ##### [06 - Loops](https://github.com/Loner789/30-days-of-js/tree/main/06-day-loops/)
-* ##### [07 - Functions]()
+* ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-conditionals/)
+* ##### [05 - Arrays](https://github.com/Loner789/30-days-of-js/tree/main/05-arrays/)
+* ##### [06 - Loops](https://github.com/Loner789/30-days-of-js/tree/main/06-loops/)
+* ##### [07 - Functions](https://github.com/Loner789/30-days-of-js/tree/main/06-functions/)
 * ##### [08 - Objects]()
 * ##### [09 - Higher order functions]()
 * ##### [10 - Sets and Maps]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 24 days (projects) left until the end of the challenge.
+There are 23 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
