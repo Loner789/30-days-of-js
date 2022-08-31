@@ -29,13 +29,47 @@ console.log(dog.getDogInfo());
 // Exercises: Level 2
 
 // 1. Find the person who has many skills in the users object.
-// ??????????????????????????????????????????????????????????
+const keys = Object.keys(users);
+// let skillsArr = [];
+// keys.forEach(key => skillsArr.push(users[key].skills.length));
+// const maxSkills = Math.max(...skillsArr);
+// keys.forEach(key => users[key].skills.length === maxSkills && console.log(key));
+
+let maxSkills = 0;
+keys.forEach((key) => {
+  if (users[key].skills.length > maxSkills) {
+    maxSkills = users[key].skills.length;
+  }
+});
+keys.forEach(
+  (key) => users[key].skills.length === maxSkills && console.log(key)
+);
 
 // 2. Count logged in users, count users having greater than equal to 50 points from the following object.
-// ??????????????????????????????????????????????????????????
+let pointsCount = 0,
+  loggedInCount = 0;
+
+keys.forEach((key) => {
+  if (users[key].isLoggedIn) {
+    loggedInCount++;
+  }
+});
+
+keys.forEach((key) => {
+  if (users[key].points >= 50) {
+    pointsCount++;
+  }
+});
+
+console.log(loggedInCount);
+console.log(pointsCount);
 
 // 3. Find people who are MERN stack developer from the users object
-// ??????????????????????????????????????????????????????????
+keys.forEach((key) => {
+  if (users[key].skills.includes("MongoDB", "Express", "React", "Node")) {
+    console.log(key);
+  }
+});
 
 // 4. Set your name in the users object without modifying the original users object
 const newUsers = Object.assign({}, users);
@@ -79,7 +113,7 @@ let personAccount = {
   expenses: [20000, 10000, 5000, 10000],
   totalIncome: function () {
     let res = 0;
-    
+
     for (let i = 0; i < this.incomes.length; i++) {
       res += this.incomes[i];
     }
@@ -88,7 +122,7 @@ let personAccount = {
   },
   totalExpense: function () {
     let res = 0;
-    
+
     for (let i = 0; i < this.expenses.length; i++) {
       res += this.expenses[i];
     }
@@ -96,7 +130,7 @@ let personAccount = {
     return res;
   },
   accountInfo: function () {
-    return `${this.firstName} ${this.lastName}`
+    return `${this.firstName} ${this.lastName}`;
   },
   addIncome: function (...args) {
     this.incomes.push(...args);
