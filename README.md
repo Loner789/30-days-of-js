@@ -16,8 +16,8 @@ ___
 * ##### [04 - Conditionals](https://github.com/Loner789/30-days-of-js/tree/main/04-conditionals/)
 * ##### [05 - Arrays](https://github.com/Loner789/30-days-of-js/tree/main/05-arrays/)
 * ##### [06 - Loops](https://github.com/Loner789/30-days-of-js/tree/main/06-loops/)
-* ##### [07 - Functions](https://github.com/Loner789/30-days-of-js/tree/main/06-functions/)
-* ##### [08 - Objects]()
+* ##### [07 - Functions](https://github.com/Loner789/30-days-of-js/tree/main/07-functions/)
+* ##### [08 - Objects](https://github.com/Loner789/30-days-of-js/tree/main/08-objects/)
 * ##### [09 - Higher order functions]()
 * ##### [10 - Sets and Maps]()
 * ##### [11 - Destructuring and spreading]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 23 days (projects) left until the end of the challenge.
+There are 22 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
