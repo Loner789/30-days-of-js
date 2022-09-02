@@ -148,28 +148,146 @@ console.log(personAccount);
 // 2. **** Questions:2, 3 and 4 are based on the following two arrays:users and products ()
 //   Imagine you are getting the above users collection from a MongoDB database.
 //     a. Create a function called signUp which allows user to add to the collection. If user exists, inform the user that he has already an account.
+// function userIdGenerator() {
+//   let res = "",
+//     chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+
+//   for (let i = 0; i < 6; i++) {
+//     res += chars[Math.floor(Math.random() * chars.length)];
+//   }
+
+//   return res;
+// }
+
+let id = "ag42sp";
+
+function signUp(id, name, email, password) {
+  function setDateTime() {
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth() + 1;
+    let year = date.getUTCFullYear();
+    let hours = date.getHours();
+    let mins = date.getMinutes();
+    let ampm = hours >= 12 ? "PM" : "AM";
+    hours = hours % 12;
+
+    if (day < 10) {
+      day = "0" + day;
+    }
+    if (month < 10) {
+      month = "0" + month;
+    }
+    if (hours < 10) {
+      hours = "0" + hours;
+    }
+    if (mins < 10) {
+      mins = "0" + mins;
+    }
+    return `${day}/${month}/${year} ${hours}:${mins} ${ampm}`;
+  }
+
+  function addNewUser() {
+    users1.push({
+      _id: id,
+      username: name,
+      email: email,
+      password: password,
+      createdAt: setDateTime(),
+      isLoggedIn: false,
+    });
+  }
+
+  function checkReg() {
+    for (let i = 0; i < users1.length; i++) {
+      if (users1[i]._id === id) {
+        console.log("You are already an account.");
+      } else {
+        return false;
+      }
+    }
+  }
+
+  checkReg() === false && addNewUser(), console.log(`Welcome, ${name}!`);
+}
+
+signUp(id, "Dmitry", "dmitry@dmitry.com", "123444");
+
+console.log(users1);
+
 //     b. Create a function called signIn which allows user to sign in to the application
+function signIn(username, password) {
+  for (let i = 0; i < users1.length; i++) {
+    if (
+      (users1[i].email === username && users1[i].password === password) ||
+      (users1[i].username === username && users1[i].password === password)
+    ) {
+      users1[i].isLoggedIn = true;
+    } else if (
+      (users1[i].email !== username && users1[i].password === password) ||
+      (users1[i].username !== username && users1[i].password === password)
+    ) {
+      console.log("Wrong username");
+    } else if (
+      (users1[i].email === username && users1[i].password !== password) ||
+      (users1[i].username === username && users1[i].password !== password)
+    ) {
+      console.log("Wrong password");
+    } else {
+      continue;
+    }
+  }
+}
+
+signIn("Dmitry", "123444");
+console.log(users1);
 
 // 3. The products array has three elements and each of them has six properties.
 //     a. Create a function called rateProduct which rates the product
+function rateProduct(product, userId, score) {
+  product.ratings.push({ userId: userId, rate: score });
+}
+
+rateProduct(products[0], "ag42sp", 3);
+
+console.log(products[0].ratings[2]);
+
 //     b. Create a function called averageRating which calculate the average rating of a product
+function averageRating(arr) {
+  let avarageRatings = [],
+    productRate = {},
+    rate = 0,
+    rateCount = 0;
+
+  for (let i = 0; i < arr.length; i++) {
+    productRate.name = arr[i].description;
+    for (let j = 0; j < arr[i].ratings.length; j++) {
+      rate += arr[i].ratings[j].rate;
+      rateCount++;
+    }
+    rate > 0
+      ? (productRate.avarageRate = +(rate / rateCount).toFixed(1))
+      : (productRate.avarageRate = 0);
+    avarageRatings.push(productRate);
+    productRate = {};
+    rate = 0;
+    rateCount = 0;
+  }
+
+  return avarageRatings;
+}
+
+console.log(averageRating(products));
 
 // 4. Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
-// let keys = Object.keys(users),
-//   skillsArr = [];
+function likeProduct(product, userId) {
+  product.likes.includes(userId)
+    ? product.likes.splice(userId, 1)
+    : product.likes.push(userId);
+}
 
-// console.table(users);
-// let usersArr = Object.entries(users);
-// for (let i = 0; i < usersArr.length; i++) {
-//   for (let j = 0; j < usersArr[i].length; j++) {
-//     if (typeof usersArr[i][j] === "object") {
-//       skillsArr.push(usersArr[i][j].skills.length);
-//       let maxSkills = Math.max(...skillsArr);
+likeProduct(products[0], id);
+console.log(products[0].likes);
 
-//       if (usersArr[i][j].skills.length === maxSkills) {
-//         console.log(usersArr[i][0]);
-//       }
-//     }
-//   }
-// }
-// console.log(a[0][1].skills.length)
+likeProduct(products[0], id);
+console.log(products[0].likes);
