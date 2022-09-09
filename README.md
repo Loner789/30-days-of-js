@@ -21,7 +21,7 @@ ___
 * ##### [09 - Higher order functions](https://github.com/Loner789/30-days-of-js/tree/main/09-higher-order-functions/)
 * ##### [10 - Sets and Maps](https://github.com/Loner789/30-days-of-js/tree/main/10-sets-and-maps/)
 * ##### [11 - Destructuring and spreading](https://github.com/Loner789/30-days-of-js/tree/main/11-destructuring-and-spreading/)
-* ##### [12 - Regular expressions]()
+* ##### [12 - Regular expressions](https://github.com/Loner789/30-days-of-js/tree/main/12-regular-expressions/)
 * ##### [13 - Console object methods]()
 * ##### [14 - Error handling]()
 * ##### [15 - Classes]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 19 days (projects) left until the end of the challenge.
+There are 18 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
