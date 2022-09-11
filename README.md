@@ -23,7 +23,7 @@ ___
 * ##### [11 - Destructuring and spreading](https://github.com/Loner789/30-days-of-js/tree/main/11-destructuring-and-spreading/)
 * ##### [12 - Regular expressions](https://github.com/Loner789/30-days-of-js/tree/main/12-regular-expressions/)
 * ##### [13 - Console object methods](https://github.com/Loner789/30-days-of-js/tree/main/13-console-object-methods/)
-* ##### [14 - Error handling]()
+* ##### [14 - Error handling](https://github.com/Loner789/30-days-of-js/tree/main/14-error-handling/)
 * ##### [15 - Classes]()
 * ##### [16 - JSON]()
 * ##### [17 - Web storages]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 17 days (projects) left until the end of the challenge.
+There are 16 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
