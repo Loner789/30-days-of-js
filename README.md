@@ -24,7 +24,7 @@ ___
 * ##### [12 - Regular expressions](https://github.com/Loner789/30-days-of-js/tree/main/12-regular-expressions/)
 * ##### [13 - Console object methods](https://github.com/Loner789/30-days-of-js/tree/main/13-console-object-methods/)
 * ##### [14 - Error handling](https://github.com/Loner789/30-days-of-js/tree/main/14-error-handling/)
-* ##### [15 - Classes]()
+* ##### [15 - Classes](https://github.com/Loner789/30-days-of-js/tree/main/15-classes/)
 * ##### [16 - JSON]()
 * ##### [17 - Web storages]()
 * ##### [18 - Promises]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 16 days (projects) left until the end of the challenge.
+There are 15 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
