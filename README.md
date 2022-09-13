@@ -26,7 +26,7 @@ ___
 * ##### [14 - Error handling](https://github.com/Loner789/30-days-of-js/tree/main/14-error-handling/)
 * ##### [15 - Classes](https://github.com/Loner789/30-days-of-js/tree/main/15-classes/)
 * ##### [16 - JSON](https://github.com/Loner789/30-days-of-js/tree/main/16-json/)
-* ##### [17 - Web storages]()
+* ##### [17 - Web storages](https://github.com/Loner789/30-days-of-js/tree/main/17-web-storages/)
 * ##### [18 - Promises]()
 * ##### [19 - Closures]()
 * ##### [20 - Writing clean codes]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 14 days (projects) left until the end of the challenge.
+There are 13 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**

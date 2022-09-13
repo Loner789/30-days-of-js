@@ -309,6 +309,7 @@ console.log(acro.join(""));
 
 // 14. Iterate through the array, ["HTML", "CSS", "JS", "React", "Redux", "Node", "Express", "MongoDB"] using a for loop or for of loop and print out the items.
 webTechs.push("Express");
+
 // * for loop
 // for (let i = 0; i < webTechs.length; i++) {
 //   console.log(webTechs[i]);
@@ -351,6 +352,7 @@ console.log(reversed);
 // NODE
 // EXPRESS
 // MONGODB
+
 const fullStack = [
   ["HTML", "CSS", "JS", "React"],
   ["Node", "Express", "MongoDB"],
@@ -365,17 +367,21 @@ for (let i = 0; i < fullStack.length; i++) {
 // Exercises: Level 3
 // 1. Copy countries array(Avoid mutation)
 const countries2 = countries;
+
 console.log(countries2);
 
 // 2. Arrays are mutable. Create a copy of array which does not modify the original. Sort the copied array and store in a variable sortedCountries
 const sortedCountries = countries.sort((a, b) => a.length - b.length);
+
 console.log(sortedCountries);
 
 // 3. Sort the webTechs array and mernStack array
 const sortedWebTechs = webTechs.sort((a, b) => a.length - b.length);
+
 console.log(sortedWebTechs);
 
 const sortedMernStack = mernStack.sort((a, b) => a.length - b.length);
+
 console.log(sortedMernStack);
 
 // 4. Extract all the countries contain the word 'land' from the countries array and print it as array

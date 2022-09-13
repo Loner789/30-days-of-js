@@ -9,6 +9,7 @@ userAge >= 18
 // 2. Compare the values of myAge and yourAge using if … else. Based on the comparison and log the result to console stating who is older (me or you). Use prompt(“Enter your age:”) to get the age as input.
 const myAge = 31;
 let yourAge = prompt("Enter your age:", 18);
+
 if (myAge > yourAge) {
   console.log(`You are ${myAge - yourAge} years younger than me.`);
 } else if (myAge < yourAge) {
@@ -21,6 +22,7 @@ if (myAge > yourAge) {
 // * using if else
 const a = 43;
 const b = 23;
+
 if (a > b) {
   console.log("a is greater than b");
 } else {
@@ -31,6 +33,7 @@ a > b ? console.log("a is greater than b") : console.log("a is less than b");
 
 // 4. Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 let number = prompt("Enter a number:", 18);
+
 +number % 2 === 0
   ? console.log(`${number} is an even number.`)
   : console.log(`${number} is an odd number.`);
@@ -39,6 +42,7 @@ let number = prompt("Enter a number:", 18);
 
 // 1. Write a code which can give grades to students according to theirs scores:
 let score = prompt("Enter your score:", 0);
+
 switch (true) {
   case +score >= 80 && +score < 101:
     console.log('Your grade is "A"');
@@ -61,6 +65,7 @@ switch (true) {
 
 // 2. Check if the season is Autumn, Winter, Spring or Summer.
 let input = prompt("Enter current Month:", "August");
+
 const month = input.toLowerCase();
 switch (true) {
   case month === "december" || month === "january" || month === "february":
@@ -82,6 +87,7 @@ switch (true) {
 // 3. Check if a day is weekend day or a working day. Your script will take day as an input.
 let input2 = prompt("What is the day today?", "Wednesday");
 const day = input2.toLocaleLowerCase();
+
 switch (true) {
   case day === "monday" ||
     day === "tuesday" ||
@@ -103,6 +109,7 @@ switch (true) {
 // 1. Write a program which tells the number of days in a month.
 let input3 = prompt("Enter a month:", "May");
 const month1 = input3.toLocaleLowerCase();
+
 if (
   month1 === "december" ||
   month1 === "january" ||
@@ -128,6 +135,7 @@ if (
 // 2. Write a program which tells the number of days in a month, now consider leap year.
 let input4 = prompt("Enter a month:", "February");
 const month2 = input4.toLocaleLowerCase();
+
 if (
   month2 === "december" ||
   month2 === "january" ||

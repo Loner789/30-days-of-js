@@ -42,4 +42,5 @@ let _firstName = "Dmitry",
 // 10. Declare two variables myAge and yourAge and assign them initial values and log to the browser console.
 const myAge = 31;
 const yourAge = 30;
+
 console.log(myAge, yourAge);

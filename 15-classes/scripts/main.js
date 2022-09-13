@@ -323,12 +323,14 @@ class PersonAccount {
     let sum = this._income.reduce((acc, cur) => {
       return acc + cur;
     }, 0);
+
     return sum;
   }
   totalExpense() {
     let sum = this._expenses.reduce((acc, cur) => {
       return acc + cur;
     }, 0);
+    
     return sum;
   }
   accountInfo() {

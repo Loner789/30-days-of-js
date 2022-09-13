@@ -159,7 +159,7 @@ const findMaxSkillsMan = (json) => {
       maxSkillsMan = person;
     }
   }
-  return {person: maxSkillsMan, skillsCount: count};
+  return { person: maxSkillsMan, skillsCount: count };
 };
 
 console.log(findMaxSkillsMan(txt));
