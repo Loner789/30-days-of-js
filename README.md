@@ -29,7 +29,7 @@ ___
 * ##### [17 - Web storages](https://github.com/Loner789/30-days-of-js/tree/main/17-web-storages/)
 * ##### [18 - Promises](https://github.com/Loner789/30-days-of-js/tree/main/18-promises/)
 * ##### [19 - Closures](https://github.com/Loner789/30-days-of-js/tree/main/19-closures/)
-* ##### [20 - Writing clean codes]()
+* ##### [20 - Writing clean codes](https://github.com/Loner789/30-days-of-js/tree/main/20-writing-clean-codes/)
 * ##### [21 - DOM]()
 * ##### [22 - Manipulating DOM object]()
 * ##### [23 - Event listeners]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 11 days (projects) left until the end of the challenge.
+There are 10 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
