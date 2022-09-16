@@ -30,7 +30,7 @@ ___
 * ##### [18 - Promises](https://github.com/Loner789/30-days-of-js/tree/main/18-promises/)
 * ##### [19 - Closures](https://github.com/Loner789/30-days-of-js/tree/main/19-closures/)
 * ##### [20 - Writing clean codes](https://github.com/Loner789/30-days-of-js/tree/main/20-writing-clean-codes/)
-* ##### [21 - DOM]()
+* ##### [21 - DOM](https://github.com/Loner789/30-days-of-js/tree/main/21-dom/)
 * ##### [22 - Manipulating DOM object]()
 * ##### [23 - Event listeners]()
 * ##### [24 - Project solar system]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 10 days (projects) left until the end of the challenge.
+There are 9 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
