@@ -11,7 +11,7 @@ wrapper.style.margin = "0 auto";
 
 for (let i = 0; i <= 101; i++) {
   let num = wrapper.appendChild(document.createElement("div"));
-  num.style.width = `calc((100% / 6) - (5px * 2))`;
+  num.style.width = `calc((100% / 6) - (2px * 2))`;
   num.style.height = "50px";
   num.style.color = "white";
   num.style.margin = "2px";
