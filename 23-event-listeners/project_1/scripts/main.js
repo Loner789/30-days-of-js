@@ -36,9 +36,26 @@ const printNumbers = (number) => {
   }
 };
 
+const checkInputValidity = (number) => {
+  const validationMessage = document.querySelector(".validation-message");
+
+  if (number === "") {
+    validationMessage.textContent = "Enter number value on the input field to generate numbers";
+    return;
+  }
+  if (number !== "" && !parseInt(number)) {
+    validationMessage.textContent = "Input value must be a number";
+    return;
+  }
+  if (parseInt(number)) {
+    validationMessage.textContent = "";
+    return number;
+  }
+};
+
 searchButton.addEventListener("click", (e) => {
   e.preventDefault();
 
   wrapper.innerHTML = "";
-  printNumbers(number.value);
+  printNumbers(checkInputValidity(number.value));
 });
