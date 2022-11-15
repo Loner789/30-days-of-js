@@ -1,0 +1,114 @@
+.root {
+  background-image: url(./images/galaxy.gif);
+}
+
+.header {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.form {
+  margin: 0;
+  padding: 70px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mass-input {
+  margin: 0 15px 0 0;
+  padding: 10px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+.planet-select {
+  margin: 0 15px 0 0;
+  padding: 10px;
+  height: 42px;
+  box-sizing: border-box;
+}
+
+.calc-btn {
+  height: 42px;
+  background: gray;
+  color: white;
+  border: 2px solid grey;
+}
+
+.flex-container {
+  margin: 20px auto 0;
+  padding: 40px;
+  width: 80%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(169, 167, 167, 0.2);
+}
+
+.planet-image {
+  width: 400px;
+  height: 400px;
+  flex-shrink: 0.2;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.description {
+  margin: 0 0 0 40px;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  background: rgba(169, 167, 167, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  margin: 0;
+  padding: 0 0 10px;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.text-span {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.mass-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: rgba(169, 167, 167, 0.2);
+}
+
+.mass {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+}

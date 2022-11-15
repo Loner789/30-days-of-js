@@ -8,7 +8,7 @@ The project was carried out in order to develop skills in working with the JavaS
 ___
 ### Technology stack:
 [![My Skills](https://skills.thijs.gg/icons?i=html,js,git)](https://skills.thijs.gg)
- 
+
 ### Content Overview:
 * ##### [01 - Introduction](https://github.com/Loner789/30-days-of-js/tree/main/01-introduction/)
 * ##### [02 - Data types](https://github.com/Loner789/30-days-of-js/tree/main/02-data-types/)
@@ -33,7 +33,7 @@ ___
 * ##### [21 - DOM](https://github.com/Loner789/30-days-of-js/tree/main/21-dom/)
 * ##### [22 - Manipulating DOM object](https://github.com/Loner789/30-days-of-js/tree/main/22-manipulating-dom-object/)
 * ##### [23 - Event listeners](https://github.com/Loner789/30-days-of-js/tree/main/23-event-listeners/)
-* ##### [24 - Project solar system]()
+* ##### [24 - Project solar system](https://github.com/Loner789/30-days-of-js/tree/main/24-project-solar-system/)
 * ##### [25 - World countries data visualization 1]()
 * ##### [26 - World countries data visualization 2]()
 * ##### [27 - Mini project portfolio]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 7 days (projects) left until the end of the challenge.
+There are 6 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
