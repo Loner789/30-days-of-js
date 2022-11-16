@@ -297,13 +297,13 @@ function mostSpokenLanguages(arr, num) {
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr[i].languages.length; j++) {
       lang = arr[i].languages[j];
-      if (!newArr.some((item) => item.country === lang)) {
-        obj.country = lang;
+      if (!newArr.some((item) => item.language === lang)) {
+        obj.language = lang;
         obj.count = 1;
         newArr.push(obj);
         obj = {};
       } else {
-        newArr.find((item) => item.country === lang).count++;
+        newArr.find((item) => item.language === lang).count++;
       }
     }
   }

@@ -34,7 +34,7 @@ ___
 * ##### [22 - Manipulating DOM object](https://github.com/Loner789/30-days-of-js/tree/main/22-manipulating-dom-object/)
 * ##### [23 - Event listeners](https://github.com/Loner789/30-days-of-js/tree/main/23-event-listeners/)
 * ##### [24 - Project solar system](https://github.com/Loner789/30-days-of-js/tree/main/24-project-solar-system/)
-* ##### [25 - World countries data visualization 1]()
+* ##### [25 - World countries data visualization 1](https://github.com/Loner789/30-days-of-js/tree/main/25-world-countries-data-visualization-1)
 * ##### [26 - World countries data visualization 2]()
 * ##### [27 - Mini project portfolio]()
 * ##### [28 - Mini project leaderboard]()
@@ -43,6 +43,6 @@ ___
 ___
 ### Plans for completion of the project
 
-There are 6 days (projects) left until the end of the challenge.
+There are 5 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**
