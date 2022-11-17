@@ -36,13 +36,13 @@ ___
 * ##### [24 - Project solar system](https://github.com/Loner789/30-days-of-js/tree/main/24-project-solar-system/)
 * ##### [25 - World countries data visualization 1](https://github.com/Loner789/30-days-of-js/tree/main/25-world-countries-data-visualization-1)
 * ##### [26 - World countries data visualization 2](https://github.com/Loner789/30-days-of-js/tree/main/26-world-countries-data-visualization-2)
-* ##### [27 - Mini project portfolio]()
+* ##### [27 - Mini project portfolio](https://github.com/Loner789/30-days-of-js/tree/main/27-mini-project-portfolio)
 * ##### [28 - Mini project leaderboard]()
 * ##### [29 - Mini project animating characters]()
 * ##### [30 - Mini project final]()
 ___
 ### Plans for completion of the project
 
-There are 4 days (projects) left until the end of the challenge.
+There are 3 days (projects) left until the end of the challenge.
 ___
 **Enjoy your viewing!**

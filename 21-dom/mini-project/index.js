@@ -11,7 +11,43 @@ const wrapper = document.querySelector(".wrapper");
 const strWithYear = document.querySelector("h1");
 const strWithDescription = document.querySelector("h2");
 const list = document.querySelector("ul");
-const listItems = list.querySelectorAll("li");
+const challenges = [
+  "30DaysOfPython Challenge Done",
+  "30DaysOfJavaScript Challenge Ongoing",
+  "30DaysOfReact Challenge Coming",
+  "30DaysOfFullStack Challenge Coming",
+  "30DaysOfDataAnalysis Challenge Coming",
+  "30DaysOfReactNative Challenge Coming",
+  "30DaysOfMachineLearning Challenge Coming",
+];
+
+// Create list element
+function createListItem(text) {
+  const listElement = document.createElement("li");
+  listElement.style.padding = "15px";
+  listElement.style.margin = "2px";
+  listElement.textContent = text;
+
+  if (text.includes("Done")) {
+    listElement.style.backgroundColor = "green";
+  }
+  if (text.includes("Ongoing")) {
+    listElement.style.backgroundColor = "yellow";
+  }
+  if (text.includes("Coming")) {
+    listElement.style.backgroundColor = "red";
+  }
+
+  return listElement;
+}
+
+// Render list element
+function renderListItem(item, container) {
+  container.append(item);
+}
+
+// Insert elements from initial array
+challenges.forEach((item) => renderListItem(createListItem(item), list));
 
 // Wrapper styles
 wrapper.style.display = "flex";
@@ -27,20 +63,6 @@ list.style.margin = "0";
 list.style.padding = "0";
 // Styles of description
 strWithDescription.style.textDecoration = "underline";
-// List items styling
-listItems.forEach((item) => {
-  if (item.textContent.includes("Done")) {
-    item.style.backgroundColor = "green";
-  }
-  if (item.textContent.includes("Ongoing")) {
-    item.style.backgroundColor = "yellow";
-  }
-  if (item.textContent.includes("Coming")) {
-    item.style.backgroundColor = "red";
-  }
-  item.style.padding = "15px";
-  item.style.margin = "2px";
-});
 
 // Changing of string with year
 const strWithYearText = strWithYear.textContent;
@@ -121,4 +143,3 @@ setInterval(() => {
   dateNode.style.backgroundColor = hexacolorGenerator();
   setDate();
 }, 1000);
-
