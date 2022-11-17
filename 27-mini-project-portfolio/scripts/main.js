@@ -6,7 +6,6 @@ const roleImage = document.querySelector(".header__roles-image");
 const cardsContainer = document.querySelector(".cards");
 const descriptionSpan = document.querySelector(".description__technologies-span");
 
-
 // Functions:
 const crateCard = ({ challenge }) => {
   const cardElement = document
@@ -57,7 +56,3 @@ const setRoleByInterval = (array) => {
 challenges.forEach((element) => renderCard(crateCard(element), cardsContainer));
 setTechnologyByInterval(technologies);
 setRoleByInterval(roles);
-
-descriptionSpan.addEventListener('change', () => {
-  descriptionSpan.style.animation = 'showtech 2s forwards';
-})

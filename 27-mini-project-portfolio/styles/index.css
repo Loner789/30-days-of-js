@@ -32,7 +32,7 @@
 .header__roles-image {
   margin: 0;
   padding: 0 40px 0 0;
-
+  animation: show-role-img 4s infinite;
 }
 
 .header__roles-text {
@@ -41,7 +41,7 @@
   font-size: 18px;
   font-weight: normal;
   transform: translateX(-150%);
-  animation: showrole 4s infinite;
+  animation: show-role-text 4s infinite;
 }
 
 .description {
@@ -115,7 +115,7 @@
     opacity: 0;
   }
 
-  90% {
+  98% {
     opacity: 1;
   }
 
@@ -124,23 +124,41 @@
   }
 }
 
-@keyframes showrole {
+@keyframes show-role-text {
   0% {
     opacity: 0;
     transform: translateX(-55px);
   }
 
-  90% {
+  98% {
     transform: translateX(0);
     opacity: 1;
   }
 
-  91% {
+  99% {
     opacity: 0;
   }
 
   100% {
     transform: translateX(-55px);
+    opacity: 0;
+  }
+}
+
+@keyframes show-role-img {
+  0% {
+    opacity: 1;
+  }
+
+  98% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
     opacity: 0;
   }
 }
