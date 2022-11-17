@@ -1,0 +1,215 @@
+:root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 500px;
+  background-image: url(../images/globe-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(29, 65, 90);
+  opacity: 0.5;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0 0 5px;
+  font-size: 52px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  z-index: 1;
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 0;
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+  z-index: 1;
+}
+
+.header__span {
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+  font-weight: 300;
+  color: white;
+  z-index: 1;
+}
+
+.header__span_letter {
+  color: rgb(255, 3, 3);
+  font-style: italic;
+}
+
+.header__span_number {
+  color: rgb(71, 230, 76);
+}
+
+.search-form {
+  margin: 0;
+  padding: 20px 0 0;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.buttons-wrapper {
+  margin: 0;
+  padding: 0;
+  min-height: max-content;
+}
+
+.radio-button {
+  margin: 0;
+  padding: 10px 0;
+  display: inline-block;
+}
+
+.radio-button input {
+  display: none;
+}
+
+.radio-button label {
+  margin: 0;
+  padding: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  background: rgb(129, 82, 191);
+  border: none;
+  border-radius: 3px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.radio-button input[type=radio]:checked + label {
+  background: rgb(100, 0, 182);
+  ;
+}
+
+.radio-button input[type=checkbox]:checked + label {
+  background: rgb(100, 0, 182);
+  ;
+}
+
+.radio-button label:hover {
+  opacity: 0.8;
+}
+
+.search-input-wrapper {
+  margin: 0;
+  padding: 20px 0 0;
+  width: 100%;
+  display: flex;
+}
+
+.search-input {
+  margin: 0;
+  padding: 10px;
+  width: 90%;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 3px rgb(107, 161, 233);
+  border-radius: 20px;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder {
+  text-align: center;
+}
+
+::-moz-placeholder {
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+.search-image {
+  margin: 0 0 0 5px;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  background-image: url(../images/search.svg);
+  background-size: contain;
+}
+
+.cards {
+  margin: 0;
+  padding: 80px 100px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 15px;
+  column-gap: 50px;
+}
+
+.card {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  height: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../images/map_image.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgb(29, 65, 90);
+  opacity: 0.5;
+}
+
+.card__text {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+  z-index: 1;
+}

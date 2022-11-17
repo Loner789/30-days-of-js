@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>World countries list</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <section class="header">
+    <h1 class="header__title">World countries list</h1>
+    <h2 class="header__subtitle">Total number of countries: 193</h2>
+    <span class="header__span"></span>
+    <form action="#" class="search-form" name="search-form">
+      <div class="buttons-wrapper">
+        <div class="radio-button">
+          <input type="radio" name="search-params" id="first-letter-btn" />
+          <label for="first-letter-btn">Starting word</label>
+        </div>
+        <div class="radio-button">
+          <input type="radio" name="search-params" id="any-letter-btn" />
+          <label for="any-letter-btn">Search with any word</label>
+        </div>
+        <div class="radio-button">
+          <input type="checkbox" name="search-params" id="reverse-btn" />
+          <label for="reverse-btn">&darr;&uarr;</label>
+        </div>
+      </div>
+      <div class="search-input-wrapper">
+        <input type="search" class="search-input" name="search-input" placeholder="Search country...">
+        <div class="search-image"></div>
+      </div>
+    </form>
+  </section>
+  <section class="cards" aria-label="Cards.">
+  </section>
+
+  <!-- COUNTRY CARD TEMPLATE -->
+  <template id="card-template">
+    <div class="card">
+      <p class="card__text"></p>
+    </div>
+  </template>
+
+  <script src="./data/countries.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>
