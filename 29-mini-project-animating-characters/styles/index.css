@@ -1,0 +1,35 @@
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.title {
+  margin: 0;
+  padding: 40px 30px;
+  animation: showtitle 4s infinite;
+}
+
+.letter {
+  margin: 0;
+  padding: 0;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+  line-height: 1.5;
+}
+
+@keyframes showtitle {
+  0% {
+    opacity: 0;
+  }
+
+  98% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
