@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>30 Days Of JavaScript</title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">30 Days Of JavaScript Challenge Leaderboard</h1>
+    <form action="#" class="form" name="leaderboard-form">
+      <input type="text" class="form__input" name="first-name" placeholder="First Name" required>
+      <input type="text" class="form__input" name="last-name" placeholder="Last Name" required>
+      <input type="text" class="form__input" name="country" placeholder="Country" required>
+      <input type="text" class="form__input" name="score" placeholder="Player Score" required>
+      <button type="submit" class="form__submit">Add Player</button>
+    </form>
+  </header>
+  <section class="leaderboard" aria-label="Section with leaderboard items.">
+    <p class="span"></p>
+    <ul class="items">
+    </ul>
+  </section>
+
+  <!-- ITEM TEMPLATE -->
+  <template id="item-template">
+    <li class="item">
+      <div class="item__name-wrapper">
+        <p class="item__text name"></p>
+        <p class="item__text date"></p>
+      </div>
+      <p class="item__text country"></p>
+      <p class="item__text score"></p>
+      <div class="item__buttons">
+        <button type="button" class="item__button delete-button"></button>
+        <button type="button" class="item__button add-points-button">+5</button>
+        <button type="button" class="item__button remove-points-button">-5</button>
+      </div>
+    </li>
+  </template>
+
+  <script src="./scripts/initial-data.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

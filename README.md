@@ -37,7 +37,7 @@ ___
 * ##### [25 - World countries data visualization 1](https://github.com/Loner789/30-days-of-js/tree/main/25-world-countries-data-visualization-1)
 * ##### [26 - World countries data visualization 2](https://github.com/Loner789/30-days-of-js/tree/main/26-world-countries-data-visualization-2)
 * ##### [27 - Mini project portfolio](https://github.com/Loner789/30-days-of-js/tree/main/27-mini-project-portfolio)
-* ##### [28 - Mini project leaderboard]()
+* ##### [28 - Mini project leaderboard](https://github.com/Loner789/30-days-of-js/tree/main/28-mini-project-leaderboard)
 * ##### [29 - Mini project animating characters]()
 * ##### [30 - Mini project final]()
 ___
