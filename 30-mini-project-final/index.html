@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>30 Days Of JavaScript: 30 </title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">World Countries Data</h1>
+    <p class="header__subtitle">Currently, we have 250 countries</p>
+    <p class="header__notification">(number of) countries satisfied the search criteria</p>
+  </header>
+  <section class="search">
+    <form action="#" class="search__form">
+      <input type="search" class="search__input" name="search-input">
+      <div class="search__buttons">
+        <div class="button name-button">
+          <input type="checkbox" id="name" class="checkbox-name"></input>
+          <label for="name">Name</label>
+        </div>
+        <div class="button capital-button">
+          <input type="checkbox" id="capital" class="checkbox-capital"></input>
+          <label for="capital">Capital</label>
+        </div>
+        <div class="button population-button">
+          <input type="checkbox" id="population" class="checkbox-population"></input>
+          <label for="population">Population</label>
+        </div>
+        <a class="diagram-button" href="#diagram"></a>
+      </div>
+    </form>
+  </section>
+  <section class="cards" aria-label="Cards.">
+  </section>
+  <section class="diagram" aria-label="Diagram." id="diagram">
+    <div class="graph-buttons">
+      <button class="graph-button population">Population</button>
+      <button class="graph-button languages">Languages</button>
+    </div>
+    <h4 class="graph-title">Some information</h4>
+    </div>
+    <div class="graphs">
+    </div>
+  </section>
+
+  <!-- CARD TEMPLATE -->
+  <template id="card-template">
+    <div class="card">
+      <div class="card__flag"></div>
+      <h2 class="card__name"></h2>
+      <p class="card__info card-capital"></p>
+      <p class="card__info card-languages"></p>
+      <p class="card__info card-population"></p>
+    </div>
+  </template>
+
+  <!-- GRAPH TEMPLATE -->
+  <template id="graph-template">
+    <div class="graph-wrapper">
+      <p class="text data"></p>
+      <div class="graph">
+        <div class="span"></div>
+      </div>
+      <p class="numbers data"></p>
+    </div>
+  </template>
+
+  <script src="./data/countries_data.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

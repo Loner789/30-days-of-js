@@ -39,10 +39,10 @@ ___
 * ##### [27 - Mini project portfolio](https://github.com/Loner789/30-days-of-js/tree/main/27-mini-project-portfolio)
 * ##### [28 - Mini project leaderboard](https://github.com/Loner789/30-days-of-js/tree/main/28-mini-project-leaderboard)
 * ##### [29 - Mini project animating characters](https://github.com/Loner789/30-days-of-js/tree/main/29-mini-project-animating-characters)
-* ##### [30 - Mini project final]()
+* ##### [30 - Mini project final](https://github.com/Loner789/30-days-of-js/tree/main/30-mini-project-final)
 ___
 ### Plans for completion of the project
 
-There are 1 day (project) left until the end of the challenge.
+The challenge is completed!
 ___
 **Enjoy your viewing!**

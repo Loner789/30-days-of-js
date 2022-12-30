@@ -1,0 +1,291 @@
+:root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  margin: 0;
+  padding: 5px 0 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(245, 243, 243);
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  color: orange;
+  font-weight: normal;
+  letter-spacing: 0.2rem;
+}
+
+.header__subtitle {
+  margin: 0;
+  padding: 5px 0 0;
+}
+
+.header__notification {
+  margin: 0;
+  padding: 3px 0 0;
+  color: orange;
+  font-style: italic;
+}
+
+.search {
+  margin: 0 auto;
+  padding: 0;
+  width: 60%;
+}
+
+.search__form {
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search__input {
+  margin: 0;
+  padding: 5px 10px;
+  width: 95%;
+  height: 30px;
+  border: 2px solid rgb(245, 243, 243);
+  border-radius: 20px;
+  color: orange;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+.search__input:focus-visible {
+  outline: none;
+}
+
+.search__buttons {
+  margin: 0;
+  padding: 30px 0 0;
+  width: 470px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin: 0;
+  padding: 0;
+  width: 26%;
+  display: inline-block;
+}
+
+.button label {
+  margin: 0;
+  padding: 8px;
+  width: 120px;
+  height: 100%;
+  background: orange;
+  border: none;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 9px;
+  cursor: pointer;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.button input {
+  display: none;
+}
+
+.button input+label::after {
+  content: '';
+  width: 13px;
+  height: 20px;
+  position: absolute;
+  right: 10px;
+  background-image: url(../images/icon-arrow.svg);
+  background-size: 11px 11px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.button input:checked+label::after {
+  transform: rotate(180deg);
+}
+
+.button input:indeterminate+label::after {
+  background-image: none;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.diagram-button {
+  margin: 0;
+  padding: 0;
+  width: 40px;
+  height: 100%;
+  border: none;
+  border-radius: 0;
+  background: none;
+  background-image: url(../images/diagram-icon.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  cursor: pointer;
+}
+
+.diagram-button:hover {
+  opacity: 0.8;
+}
+
+.cards {
+  margin: 0;
+  padding: 15px 30px;
+  width: 100%;
+  background: rgb(245, 243, 243);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  box-sizing: border-box;
+}
+
+.card {
+  margin: 0;
+  padding: 15px 20px;
+  width: 220px;
+  min-height: 300px;
+  background: #FFF;
+  box-sizing: border-box;
+}
+
+.card__flag {
+  margin: 0 auto;
+  padding: 0;
+  width: calc(100% - 2*20px);
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rgb(245, 243, 243);
+}
+
+.card__name {
+  margin: 0;
+  padding: 25px 0 8px;
+  color: orange;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.card__info {
+  margin: 0;
+  padding: 2px 0;
+  width: 100%;
+}
+
+.diagram {
+  margin: 25px 0 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 3px solid rgb(245, 243, 243);
+}
+
+.graph-buttons {
+  margin: 0;
+  padding: 20px 0 0;
+  width: 260px;
+  min-height: 1px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.graph-button {
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  height: 30px;
+  background: orange;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.graph-button:hover {
+  opacity: 0.8;
+}
+
+.graph-title {
+  margin: 0;
+  padding: 10px 0 5px;
+  font-weight: 300;
+}
+
+.graphs {
+  margin: 0;
+  padding: 20px 0;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: max-content;
+  background: rgb(245, 243, 243);
+}
+
+.graph-wrapper {
+  margin: 0 auto;
+  padding: 3px 0;
+  display: flex;
+  width: 72%;
+  height: 30px;
+  align-items: center;
+}
+
+.data {
+  margin: 0;
+  padding: 0 10px;
+  width: 14%;
+  font-size: 16px;
+  font-weight: 300;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.graph {
+  margin: 0;
+  padding: 0;
+  width: 70%;
+  height: 100%;
+}
+
+.span {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: orange;
+  width: 63%;
+}
