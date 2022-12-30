@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>30 Days Of JavaScript: 30 </title>
+  <link rel="stylesheet" href="./styles/index.css">
+</head>
+
+<body class="page">
+  <form class="form" id="form">
+    <h1 class="title">Validating Web Forms</h1>
+    <label for="first-name" class="input-label">
+      First Name
+      <input type="text" class="input" id="first-name" name="first-name" minlength="2" maxlength="40" required>
+      <span class="input-error first-name-error"></span>
+    </label>
+    <label for="last-name" class="input-label">
+      Last Name
+      <input type="text" class="input" id="last-name" name="last-name" minlength="2" maxlength="40" required>
+      <span class="input-error last-name-error"></span>
+    </label>
+    <label for="email" class="input-label">
+      Email
+      <input type="email" class="input" id="email" name="email" required>
+      <span class="input-error email-error"></span>
+    </label>
+    <label for="password" class="input-label">
+      Password
+      <input type="password" class="input" id="password" name="password" minlength="4" maxlength="40" autocomplete
+        required>
+      <span class="input-error password-error"></span>
+    </label>
+    <label for="telephone" class="input-label">
+      Telephone
+      <input type="tel" class="input" id="telephone" name="telephone" required>
+      <span class="input-error telephone-error"></span>
+    </label>
+    <label for="bio" class="input-label">
+      Your bio
+      <input type="text" class="input" id="bio" name="bio" minlength="2" maxlength="40" required>
+      <span class="input-error bio-error"></span>
+    </label>
+    <button type="submit" class="submit-button submit-button_active">Submit</button>
+  </form>
+
+  <script src="./scripts/FormValidator.js"></script>
+  <script src="./scripts/main.js"></script>
+</body>
+
+</html>

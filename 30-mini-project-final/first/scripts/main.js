@@ -167,7 +167,7 @@ const createPopulationGraph = (obj) => {
 
 const createLanguagesGraph = (obj, arr) => {
   const { language, count } = obj;
-  const allLanguages = mostSpokenLanguages(arr).length;
+  const allFoundCountries = arr.length;
   const graph = document
     .querySelector("#graph-template")
     .content.querySelector(".graph-wrapper")
@@ -176,7 +176,7 @@ const createLanguagesGraph = (obj, arr) => {
   graph.querySelector(".text").textContent = language;
   graph.querySelector(".numbers").textContent = count;
   graph.querySelector(".span").style.width = `${Math.floor(
-    count / (allLanguages / 100)
+    count / (allFoundCountries / 100)
   )}%`;
 
   return graph;
